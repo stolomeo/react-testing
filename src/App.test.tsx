@@ -10,7 +10,7 @@ describe("App component", () => {
 
   it("renders radical rhinos after button click", () => {
     render(<App />);
-    const button = screen.getByRole("button", { name: "Click me " });
+    const button = screen.getByRole("button", { name: "Click Me" });
 
     userEvent.click(button);
 
