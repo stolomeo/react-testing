@@ -1,6 +1,6 @@
 import { ChangeEvent } from "react";
 type Props = {
-  onChange: (onChange: any) => void;
+  onChange: (onChange: () => {}) => void;
   id: undefined;
 };
 export default function FavoriteInput({ onChange: onInputChange, id }: Props) {
